@@ -1,0 +1,27 @@
+.app {
+    min-height: 100vh;
+    position: relative;
+}
+
+.main-content {
+    position: relative;
+    z-index: 1;
+}
+
+.footer {
+    padding: var(--spacing-xl) 0;
+    text-align: center;
+    border-top: 1px solid var(--glass-border);
+    margin-top: var(--spacing-2xl);
+}
+
+.footer-text {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.footer-info {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-tertiary);
+}
